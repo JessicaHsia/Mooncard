@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #222;
+  flex-direction: column;
 }
 
 .scene {
@@ -23,8 +24,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-
-.moon {
+.scene .moon {
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -36,8 +36,7 @@ body {
   transform: rotate(140deg);
   box-shadow: 10PX 10PX 11PX lightyellow inset, 20px 20px 20px #ffcc33 inset, -5px -10px 50px white;
 }
-
-.name {
+.scene .name {
   font-size: 50px;
   color: lightyellow;
   font-weight: 4rem;
@@ -48,8 +47,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.allleavese {
+.scene .allleavese {
   width: 100%;
   height: 100%;
   border-radius: 0;
@@ -59,8 +57,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.allstar {
+.scene .allstar {
   width: 100%;
   height: 50%;
   border-radius: 0;
@@ -69,6 +66,14 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+footer {
+  font-size: 12px;
+  color: lightyellow;
+  font-weight: 4rem;
+  line-height: bold;
+  letter-spacing: 5px;
 }
 
 @keyframes flying {
@@ -87,7 +92,7 @@ body {
 }
 @keyframes flash {
   0%, 40% {
-    opacity: 55;
+    opacity: 97;
   }
 }
 .leaves1 {
@@ -97,12 +102,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(195);
+  transform: rotate(19);
   position: absolute;
-  top: 3.9124444536%;
-  left: 543.1415710851px;
+  top: 16.9847579219%;
+  left: 410.3148474032px;
   transform: translate(0, 0);
-  animation: flying 4.7918892418s ease-in-out -0.3052317651S infinite;
+  animation: flying 5.8522815299s ease-in-out -0.0489964568S infinite;
 }
 
 .leaves2 {
@@ -112,12 +117,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(186);
+  transform: rotate(68);
   position: absolute;
-  top: 22.8165104414%;
-  left: 206.9735636477px;
+  top: 4.9729781192%;
+  left: 244.808518061px;
   transform: translate(0, 0);
-  animation: flying 6.2084759134s ease-in-out -0.1207024905S infinite;
+  animation: flying 6.3174223778s ease-in-out -0.223459327S infinite;
 }
 
 .leaves3 {
@@ -127,12 +132,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(132);
+  transform: rotate(127);
   position: absolute;
-  top: 7.4433503519%;
-  left: 171.5389704132px;
+  top: 19.0435285919%;
+  left: 105.0627621417px;
   transform: translate(0, 0);
-  animation: flying 4.6479645644s ease-in-out -0.7928229325S infinite;
+  animation: flying 6.6360022034s ease-in-out -0.8000843589S infinite;
 }
 
 .leaves4 {
@@ -142,12 +147,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(253);
+  transform: rotate(95);
   position: absolute;
-  top: 9.6589074891%;
-  left: 205.1944511806px;
+  top: 1.3985728674%;
+  left: 116.2697309798px;
   transform: translate(0, 0);
-  animation: flying 6.0886220811s ease-in-out -0.3837270451S infinite;
+  animation: flying 6.7682595591s ease-in-out -0.3620594245S infinite;
 }
 
 .leaves5 {
@@ -157,12 +162,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(8);
+  transform: rotate(199);
   position: absolute;
-  top: 15.1925194991%;
-  left: 266.2903614898px;
+  top: 8.4855259878%;
+  left: 378.0321692363px;
   transform: translate(0, 0);
-  animation: flying 4.8931772457s ease-in-out -0.5893667414S infinite;
+  animation: flying 5.2044310584s ease-in-out -0.2628568846S infinite;
 }
 
 .leaves6 {
@@ -172,12 +177,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(135);
+  transform: rotate(196);
   position: absolute;
-  top: 3.5168052901%;
-  left: 790.2428210225px;
+  top: 16.4993130456%;
+  left: 335.4603055996px;
   transform: translate(0, 0);
-  animation: flying 6.3006737773s ease-in-out -0.4049661602S infinite;
+  animation: flying 6.0840582861s ease-in-out -0.8364954054S infinite;
 }
 
 .leaves7 {
@@ -187,12 +192,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(74);
+  transform: rotate(293);
   position: absolute;
-  top: 25.1498685556%;
-  left: 187.068636568px;
+  top: 27.4756313588%;
+  left: 382.9985056999px;
   transform: translate(0, 0);
-  animation: flying 6.5940924363s ease-in-out -0.1150054913S infinite;
+  animation: flying 4.2508117635s ease-in-out -0.4296123991S infinite;
 }
 
 .leaves8 {
@@ -202,12 +207,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(68);
+  transform: rotate(57);
   position: absolute;
-  top: 15.4324881379%;
-  left: 392.7923932774px;
+  top: 18.666151569%;
+  left: 519.6936693006px;
   transform: translate(0, 0);
-  animation: flying 5.9733459964s ease-in-out -0.3403154029S infinite;
+  animation: flying 4.3873031475s ease-in-out -0.3235244553S infinite;
 }
 
 .leaves9 {
@@ -217,12 +222,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(243);
+  transform: rotate(228);
   position: absolute;
-  top: 29.3604285406%;
-  left: 724.9733759851px;
+  top: 11.5104950592%;
+  left: 726.6687664335px;
   transform: translate(0, 0);
-  animation: flying 5.4692241105s ease-in-out -0.9224873141S infinite;
+  animation: flying 6.4546977372s ease-in-out -0.4119917529S infinite;
 }
 
 .leaves10 {
@@ -232,12 +237,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(127);
+  transform: rotate(22);
   position: absolute;
-  top: 14.0166415606%;
-  left: 24.3427381103px;
+  top: 5.7144889992%;
+  left: 660.5973786356px;
   transform: translate(0, 0);
-  animation: flying 4.2331431113s ease-in-out -0.2849713996S infinite;
+  animation: flying 6.9462117303s ease-in-out -0.5057996108S infinite;
 }
 
 .leaves11 {
@@ -247,12 +252,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(225);
+  transform: rotate(42);
   position: absolute;
-  top: 7.6281228719%;
-  left: 798.0145461194px;
+  top: 4.19292547%;
+  left: 118.1924959637px;
   transform: translate(0, 0);
-  animation: flying 6.2851675115s ease-in-out -0.6757120568S infinite;
+  animation: flying 4.3922902896s ease-in-out -0.7030913491S infinite;
 }
 
 .leaves12 {
@@ -262,12 +267,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(270);
+  transform: rotate(224);
   position: absolute;
-  top: 3.1468230714%;
-  left: 138.0504432662px;
+  top: 20.1613110671%;
+  left: 452.0800121994px;
   transform: translate(0, 0);
-  animation: flying 5.3238655115s ease-in-out -0.1463623613S infinite;
+  animation: flying 5.3912801586s ease-in-out -0.9024716621S infinite;
 }
 
 .leaves13 {
@@ -277,12 +282,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(75);
+  transform: rotate(162);
   position: absolute;
-  top: 26.5901744297%;
-  left: 480.348230917px;
+  top: 11.0007818856%;
+  left: 26.6283857658px;
   transform: translate(0, 0);
-  animation: flying 6.6458424105s ease-in-out -0.1893138029S infinite;
+  animation: flying 4.5186110043s ease-in-out -0.3156244103S infinite;
 }
 
 .leaves14 {
@@ -292,12 +297,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(40);
+  transform: rotate(262);
   position: absolute;
-  top: 3.5137612983%;
-  left: 512.3319253737px;
+  top: 0.9489128038%;
+  left: 647.3249525707px;
   transform: translate(0, 0);
-  animation: flying 4.1205208435s ease-in-out -0.341683864S infinite;
+  animation: flying 6.4741665406s ease-in-out -0.5949941298S infinite;
 }
 
 .leaves15 {
@@ -307,12 +312,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(216);
+  transform: rotate(141);
   position: absolute;
-  top: 17.6445851955%;
-  left: 612.0885739808px;
+  top: 9.1022818698%;
+  left: 17.747038655px;
   transform: translate(0, 0);
-  animation: flying 5.5285990861s ease-in-out -0.7246957981S infinite;
+  animation: flying 6.9620741747s ease-in-out -0.3631969269S infinite;
 }
 
 .leaves16 {
@@ -322,12 +327,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(139);
+  transform: rotate(284);
   position: absolute;
-  top: 26.9386893706%;
-  left: 593.5706309313px;
+  top: 26.3232180599%;
+  left: 109.5525928306px;
   transform: translate(0, 0);
-  animation: flying 4.0792565478s ease-in-out -0.6674289787S infinite;
+  animation: flying 6.5597590571s ease-in-out -0.5246375199S infinite;
 }
 
 .leaves17 {
@@ -337,12 +342,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(118);
+  transform: rotate(170);
   position: absolute;
-  top: 8.4241425341%;
-  left: 170.0138160556px;
+  top: 5.4120669592%;
+  left: 248.559087901px;
   transform: translate(0, 0);
-  animation: flying 4.8251677341s ease-in-out -0.9203310737S infinite;
+  animation: flying 5.2101901866s ease-in-out -0.7950491771S infinite;
 }
 
 .leaves18 {
@@ -352,12 +357,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(93);
+  transform: rotate(207);
   position: absolute;
-  top: 17.2680862489%;
-  left: 68.8535494797px;
+  top: 21.6429854545%;
+  left: 124.8507680983px;
   transform: translate(0, 0);
-  animation: flying 6.2399367911s ease-in-out -0.7415455677S infinite;
+  animation: flying 4.0563827542s ease-in-out -0.9187737443S infinite;
 }
 
 .leaves19 {
@@ -367,12 +372,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(204);
+  transform: rotate(165);
   position: absolute;
-  top: 12.686824067%;
-  left: 593.3161245477px;
+  top: 1.2820022406%;
+  left: 788.1447462855px;
   transform: translate(0, 0);
-  animation: flying 4.4421514107s ease-in-out -0.1336334619S infinite;
+  animation: flying 5.6739483282s ease-in-out -0.6333296079S infinite;
 }
 
 .leaves20 {
@@ -382,12 +387,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(227);
+  transform: rotate(89);
   position: absolute;
-  top: 12.0545448497%;
-  left: 71.6060344496px;
+  top: 6.6760708671%;
+  left: 448.3654010045px;
   transform: translate(0, 0);
-  animation: flying 5.7768987076s ease-in-out -0.5210231562S infinite;
+  animation: flying 6.7383474235s ease-in-out -0.2908231228S infinite;
 }
 
 .leaves21 {
@@ -397,12 +402,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(59);
+  transform: rotate(201);
   position: absolute;
-  top: 1.7076373638%;
-  left: 776.0041969082px;
+  top: 10.792397632%;
+  left: 474.6750240348px;
   transform: translate(0, 0);
-  animation: flying 4.1648356814s ease-in-out -0.892678508S infinite;
+  animation: flying 6.5104643522s ease-in-out -0.2144626934S infinite;
 }
 
 .leaves22 {
@@ -412,12 +417,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(25);
+  transform: rotate(59);
   position: absolute;
-  top: 18.4732181782%;
-  left: 592.5692756117px;
+  top: 8.3005604355%;
+  left: 655.3862239883px;
   transform: translate(0, 0);
-  animation: flying 4.2577875412s ease-in-out -0.8036323068S infinite;
+  animation: flying 5.7909867983s ease-in-out -0.7505194588S infinite;
 }
 
 .leaves23 {
@@ -427,12 +432,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(90);
+  transform: rotate(97);
   position: absolute;
-  top: 28.5096441982%;
-  left: 454.2540722635px;
+  top: 19.1074717037%;
+  left: 351.1342530016px;
   transform: translate(0, 0);
-  animation: flying 5.192659985s ease-in-out -0.9606512792S infinite;
+  animation: flying 6.1212673425s ease-in-out -0.2396105491S infinite;
 }
 
 .leaves24 {
@@ -442,12 +447,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(287);
+  transform: rotate(264);
   position: absolute;
-  top: 3.9024935037%;
-  left: 567.0336130697px;
+  top: 2.5963170142%;
+  left: 194.2329202434px;
   transform: translate(0, 0);
-  animation: flying 5.5010607524s ease-in-out -0.5326072859S infinite;
+  animation: flying 4.4905059364s ease-in-out -0.0387579343S infinite;
 }
 
 .leaves25 {
@@ -457,12 +462,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(164);
+  transform: rotate(269);
   position: absolute;
-  top: 24.9316516182%;
-  left: 33.8568053446px;
+  top: 23.6372799862%;
+  left: 742.686820371px;
   transform: translate(0, 0);
-  animation: flying 4.0528695061s ease-in-out -0.1683756287S infinite;
+  animation: flying 5.9222517611s ease-in-out -0.1531018534S infinite;
 }
 
 .leaves26 {
@@ -472,12 +477,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(126);
+  transform: rotate(293);
   position: absolute;
-  top: 14.1868604924%;
-  left: 455.7675853034px;
+  top: 5.9882782963%;
+  left: 119.35223798px;
   transform: translate(0, 0);
-  animation: flying 4.3596384391s ease-in-out -0.5330393347S infinite;
+  animation: flying 6.3778479841s ease-in-out -0.805289404S infinite;
 }
 
 .leaves27 {
@@ -487,12 +492,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(287);
+  transform: rotate(195);
   position: absolute;
-  top: 10.1931028932%;
-  left: 787.8122681132px;
+  top: 11.9434961614%;
+  left: 546.0424836587px;
   transform: translate(0, 0);
-  animation: flying 5.6555023747s ease-in-out -0.486825115S infinite;
+  animation: flying 6.8055753022s ease-in-out -0.7283859233S infinite;
 }
 
 .leaves28 {
@@ -502,12 +507,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(17);
+  transform: rotate(94);
   position: absolute;
-  top: 22.9211366298%;
-  left: 795.2041818754px;
+  top: 20.9600727412%;
+  left: 356.4136085254px;
   transform: translate(0, 0);
-  animation: flying 4.2905233426s ease-in-out -0.4424674027S infinite;
+  animation: flying 6.7656033408s ease-in-out -0.0733205876S infinite;
 }
 
 .leaves29 {
@@ -517,12 +522,12 @@ body {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(129);
+  transform: rotate(165);
   position: absolute;
-  top: 25.2673844234%;
-  left: 478.2031180687px;
+  top: 15.687713848%;
+  left: 200.1962936222px;
   transform: translate(0, 0);
-  animation: flying 5.1189754259s ease-in-out -0.1705318605S infinite;
+  animation: flying 5.292781712s ease-in-out -0.7968098995S infinite;
 }
 
 .star1 {
@@ -533,10 +538,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 38.0529268087%;
-  left: 181.2961834821px;
+  top: 21.9445893964%;
+  left: 512.6901073388px;
   transform: translate(0, 0);
-  animation: flash 4.4624438886s ease -0.4224370831s infinite;
+  animation: flash 4.847650582s ease -0.1199361932s infinite;
 }
 
 .star2 {
@@ -547,10 +552,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 8.5843127181%;
-  left: 392.890249646px;
+  top: 23.5124990059%;
+  left: 268.9628479852px;
   transform: translate(0, 0);
-  animation: flash 4.0723068359s ease -0.2935803745s infinite;
+  animation: flash 2.1325805706s ease -0.2248898853s infinite;
 }
 
 .star3 {
@@ -561,10 +566,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 19.3645617615%;
-  left: 766.0851191326px;
+  top: 27.4410365212%;
+  left: 61.2899402678px;
   transform: translate(0, 0);
-  animation: flash 4.192640141s ease -0.1007209226s infinite;
+  animation: flash 2.4152369749s ease -0.1672122715s infinite;
 }
 
 .star4 {
@@ -575,10 +580,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 15.3216680409%;
-  left: 435.649356229px;
+  top: 16.4077330059%;
+  left: 770.898821602px;
   transform: translate(0, 0);
-  animation: flash 4.7716732607s ease -0.2367104364s infinite;
+  animation: flash 2.1285442081s ease -0.2608937309s infinite;
 }
 
 .star5 {
@@ -589,10 +594,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 1.8694731009%;
-  left: 295.1747244008px;
+  top: 6.8222196248%;
+  left: 667.0850683841px;
   transform: translate(0, 0);
-  animation: flash 2.5932182299s ease -0.0845034289s infinite;
+  animation: flash 4.4996042738s ease -0.4201606417s infinite;
 }
 
 .star6 {
@@ -603,10 +608,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 23.3178859373%;
-  left: 516.2219220095px;
+  top: 48.7880916344%;
+  left: 501.0271691535px;
   transform: translate(0, 0);
-  animation: flash 2.5860769306s ease -0.4844951889s infinite;
+  animation: flash 4.7177946844s ease -0.2626811717s infinite;
 }
 
 .star7 {
@@ -617,10 +622,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 7.8527271901%;
-  left: 351.5264776253px;
+  top: 8.7709072969%;
+  left: 107.0242250778px;
   transform: translate(0, 0);
-  animation: flash 3.4925184796s ease -0.2418160115s infinite;
+  animation: flash 4.248745689s ease -0.3332736025s infinite;
 }
 
 .star8 {
@@ -631,10 +636,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 41.2809890887%;
-  left: 745.6284026869px;
+  top: 49.8897580635%;
+  left: 406.829738619px;
   transform: translate(0, 0);
-  animation: flash 4.9431367315s ease -0.3290992225s infinite;
+  animation: flash 2.2737360291s ease -0.4618165775s infinite;
 }
 
 .star9 {
@@ -645,10 +650,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 18.4407037599%;
-  left: 123.0259251603px;
+  top: 22.9178689614%;
+  left: 644.6854759776px;
   transform: translate(0, 0);
-  animation: flash 3.9941672652s ease -0.237559614s infinite;
+  animation: flash 2.9409113833s ease -0.4649493955s infinite;
 }
 
 .star10 {
@@ -659,10 +664,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 35.2901976659%;
-  left: 180.7102994939px;
+  top: 6.0467762027%;
+  left: 392.985308333px;
   transform: translate(0, 0);
-  animation: flash 2.7054011914s ease -0.4576353393s infinite;
+  animation: flash 2.7383507586s ease -0.3568109247s infinite;
 }
 
 .star11 {
@@ -673,10 +678,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 43.0053756432%;
-  left: 284.5425794616px;
+  top: 47.3567554156%;
+  left: 156.593466373px;
   transform: translate(0, 0);
-  animation: flash 3.8634686808s ease -0.4523838841s infinite;
+  animation: flash 4.9260880563s ease -0.4206726618s infinite;
 }
 
 .star12 {
@@ -687,10 +692,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 20.6314435797%;
-  left: 326.6123064934px;
+  top: 21.1396451261%;
+  left: 557.8180691729px;
   transform: translate(0, 0);
-  animation: flash 2.6406038583s ease -0.1827335962s infinite;
+  animation: flash 2.5692527045s ease -0.093061428s infinite;
 }
 
 .star13 {
@@ -701,10 +706,10 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 5.1708548286%;
-  left: 644.1995305862px;
+  top: 16.985926189%;
+  left: 718.1767943509px;
   transform: translate(0, 0);
-  animation: flash 3.0328008707s ease -0.2965002064s infinite;
+  animation: flash 2.5394729187s ease -0.1195738294s infinite;
 }
 
 .star14 {
@@ -715,8 +720,8 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 4.9589792908%;
-  left: 764.5455465919px;
+  top: 7.8950988454%;
+  left: 340.8589506607px;
   transform: translate(0, 0);
-  animation: flash 3.5772835324s ease -0.1459307802s infinite;
+  animation: flash 2.3984172556s ease -0.284197382s infinite;
 }/*# sourceMappingURL=homepractise-mooncard.css.map */

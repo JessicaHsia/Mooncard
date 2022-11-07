@@ -52,6 +52,7 @@ body {
     @include size(100%, 100vh, 0);
     @include flex(center, center);
     background-color: #222;
+    flex-direction: column;
 }
 
 .scene {
@@ -61,34 +62,40 @@ body {
     position: relative;
     // 場景之外的東西全部隱藏
     overflow: hidden;
+    .moon {
+        @include size(80px, 80px, 50%);
+        // box-shadow: inset 0px 16px #ffcc33, inset 0px 16px 1px #ffcc33;
+        // box-shadow: inset 0px -16px #ffcc33, inset 0px -16px 1px #ffcc33;
+        @include posa(20%, 10%);
+        // 旋轉 deg度數
+        transform: rotate(140deg);
+        box-shadow: 10PX 10PX 11PX lightyellow inset, 20px 20px 20px #ffcc33 inset, -5px -10px 50px white ;
+    }
+    .name {
+        @include font(50px, lightyellow, 4rem, bold, 5px);
+        @include posa(50%, 50%, -50%, -50%);
+    }
+    
+    .allleavese {
+        // 在這長卡片上的出現範圍
+        @include size(100%, 100%);
+        // 相對定位
+        @include posa(50%, 50%, -50%, -50%);
+    }
+    
+    .allstar {
+        @include size(100%, 50%);
+        @include posa(40%, 50%, -50%, -50%);
+    }
 }
 
-.moon {
-    @include size(80px, 80px, 50%);
-    // box-shadow: inset 0px 16px #ffcc33, inset 0px 16px 1px #ffcc33;
-    // box-shadow: inset 0px -16px #ffcc33, inset 0px -16px 1px #ffcc33;
-    @include posa(20%, 10%);
-    // 旋轉 deg度數
-    transform: rotate(140deg);
-    box-shadow: 10PX 10PX 11PX lightyellow inset, 20px 20px 20px #ffcc33 inset, -5px -10px 50px white ;
+
+footer{
+    @include font(12px, lightyellow, 4rem, bold, 5px);
 }
 
-.name {
-    @include font(50px, lightyellow, 4rem, bold, 5px);
-    @include posa(50%, 50%, -50%, -50%);
-}
 
-.allleavese {
-    // 在這長卡片上的出現範圍
-    @include size(100%, 100%);
-    // 相對定位
-    @include posa(50%, 50%, -50%, -50%);
-}
 
-.allstar {
-    @include size(100%, 50%);
-    @include posa(40%, 50%, -50%, -50%);
-}
 
 // 動畫
 @keyframes flying {
