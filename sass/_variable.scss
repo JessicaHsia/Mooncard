@@ -1,0 +1,5 @@
+// 製作場景漸層
+$color_blue_light: #1A449D;
+$color_blue_balack: #1D2C4C;
+// 設置角度
+$scene_blue_gradient: linear-gradient(210deg, $color_blue_light, $color_blue_balack);
