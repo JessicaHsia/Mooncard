@@ -165,3 +165,29 @@ footer{
         
     }
 }
+
+@media (max-width: 1024px) {
+    .scene{
+        width: 600px;
+        .name {
+            @include font(30px, lightyellow, 4rem, bold, 3px);
+        }
+    }
+    footer{
+        @include font(9px, lightyellow, 4rem, bold, 3px);
+    }
+}
+
+@media (max-width: 760px) {
+    .scene{
+        width: 300px;
+        height: 200px;
+        .name {
+            @include font(18px, lightyellow, 4rem, bold, 1px);
+        }
+    }
+    footer{
+        width: 300px;
+        @include font(9px, lightyellow, 4rem, bold, 0px);
+    }
+}
