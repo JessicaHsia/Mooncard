@@ -171,6 +171,7 @@ footer{
         width: 600px;
         .name {
             @include font(30px, lightyellow, 4rem, bold, 3px);
+            @include posa(50%, 50%, -20%, -50%);
         }
     }
     footer{

@@ -92,7 +92,7 @@ footer {
 }
 @keyframes flash {
   0%, 40% {
-    opacity: 40;
+    opacity: 64;
   }
 }
 .leaves1 {
@@ -102,12 +102,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(88);
+  transform: rotate(195);
   position: absolute;
-  top: 13.5363567564%;
-  left: 328.2136263006px;
+  top: 17.1912653894%;
+  left: 669.0628891034px;
   transform: translate(0, 0);
-  animation: flying 6.1872025581s ease-in-out -0.8047826428S infinite;
+  animation: flying 5.5330558212s ease-in-out -0.1711645718S infinite;
 }
 
 .leaves2 {
@@ -117,12 +117,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(269);
+  transform: rotate(200);
   position: absolute;
-  top: 4.0227536508%;
-  left: 16.5501364544px;
+  top: 21.0136616886%;
+  left: 435.972649236px;
   transform: translate(0, 0);
-  animation: flying 6.7827638831s ease-in-out -0.269538364S infinite;
+  animation: flying 5.1123730181s ease-in-out -0.9421941211S infinite;
 }
 
 .leaves3 {
@@ -132,12 +132,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(174);
+  transform: rotate(130);
   position: absolute;
-  top: 3.4536605964%;
-  left: 134.4521185792px;
+  top: 0.260769942%;
+  left: 177.9570895892px;
   transform: translate(0, 0);
-  animation: flying 5.4038990462s ease-in-out -0.9544864486S infinite;
+  animation: flying 4.1199774234s ease-in-out -0.2726718742S infinite;
 }
 
 .leaves4 {
@@ -147,12 +147,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(248);
+  transform: rotate(17);
   position: absolute;
-  top: 18.2426712303%;
-  left: 147.3485379907px;
+  top: 7.6260977826%;
+  left: 793.4837052607px;
   transform: translate(0, 0);
-  animation: flying 6.2689884152s ease-in-out -0.1367568736S infinite;
+  animation: flying 6.3436586191s ease-in-out -0.1449939157S infinite;
 }
 
 .leaves5 {
@@ -162,12 +162,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(215);
+  transform: rotate(92);
   position: absolute;
-  top: 20.8909049108%;
-  left: 573.5366534113px;
+  top: 18.3739638618%;
+  left: 667.8482073631px;
   transform: translate(0, 0);
-  animation: flying 5.636385163s ease-in-out -0.542636122S infinite;
+  animation: flying 4.9171152216s ease-in-out -0.8951477403S infinite;
 }
 
 .leaves6 {
@@ -177,12 +177,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(108);
+  transform: rotate(20);
   position: absolute;
-  top: 2.8836294266%;
-  left: 688.4781477823px;
+  top: 2.6806500855%;
+  left: 487.2689833356px;
   transform: translate(0, 0);
-  animation: flying 5.0105006363s ease-in-out -0.6271162233S infinite;
+  animation: flying 5.0605990324s ease-in-out -0.5509177802S infinite;
 }
 
 .leaves7 {
@@ -192,12 +192,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(4);
+  transform: rotate(155);
   position: absolute;
-  top: 10.1352633221%;
-  left: 494.5200722666px;
+  top: 10.6297956908%;
+  left: 53.2508644562px;
   transform: translate(0, 0);
-  animation: flying 6.7617193962s ease-in-out -0.3449173187S infinite;
+  animation: flying 4.8370691717s ease-in-out -0.8247975732S infinite;
 }
 
 .leaves8 {
@@ -207,12 +207,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(32);
+  transform: rotate(277);
   position: absolute;
-  top: 28.5350837077%;
-  left: 364.4400229561px;
+  top: 17.1023736317%;
+  left: 755.9870287223px;
   transform: translate(0, 0);
-  animation: flying 5.4100712534s ease-in-out -0.4498203396S infinite;
+  animation: flying 6.2044102643s ease-in-out -0.6286123903S infinite;
 }
 
 .leaves9 {
@@ -222,12 +222,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(91);
+  transform: rotate(153);
   position: absolute;
-  top: 13.1037964591%;
-  left: 219.4944755959px;
+  top: 8.4552032351%;
+  left: 78.2468620153px;
   transform: translate(0, 0);
-  animation: flying 4.0796530905s ease-in-out -0.8928346207S infinite;
+  animation: flying 6.7741267945s ease-in-out -0.9332275518S infinite;
 }
 
 .leaves10 {
@@ -237,12 +237,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(171);
+  transform: rotate(139);
   position: absolute;
-  top: 9.9237437765%;
-  left: 11.9636319887px;
+  top: 23.7406747619%;
+  left: 710.9625217168px;
   transform: translate(0, 0);
-  animation: flying 4.7676568352s ease-in-out -0.6016827637S infinite;
+  animation: flying 4.3701921271s ease-in-out -0.4317873207S infinite;
 }
 
 .leaves11 {
@@ -252,12 +252,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(131);
+  transform: rotate(300);
   position: absolute;
-  top: 15.6961610799%;
-  left: 57.005021242px;
+  top: 17.3610272857%;
+  left: 472.5857721394px;
   transform: translate(0, 0);
-  animation: flying 6.2092369207s ease-in-out -0.8429326385S infinite;
+  animation: flying 4.1843918739s ease-in-out -0.5910016372S infinite;
 }
 
 .leaves12 {
@@ -267,12 +267,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(263);
+  transform: rotate(182);
   position: absolute;
-  top: 29.4302288303%;
-  left: 277.8583989938px;
+  top: 24.8867753019%;
+  left: 659.9623309227px;
   transform: translate(0, 0);
-  animation: flying 6.5537260093s ease-in-out -0.0709822863S infinite;
+  animation: flying 4.6767807882s ease-in-out -0.7355742858S infinite;
 }
 
 .leaves13 {
@@ -282,12 +282,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(62);
+  transform: rotate(216);
   position: absolute;
-  top: 15.5198157093%;
-  left: 471.5693617884px;
+  top: 12.7357395676%;
+  left: 352.4717017343px;
   transform: translate(0, 0);
-  animation: flying 6.735938305s ease-in-out -0.2094960558S infinite;
+  animation: flying 5.9173834622s ease-in-out -0.0662132221S infinite;
 }
 
 .leaves14 {
@@ -297,12 +297,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(263);
+  transform: rotate(267);
   position: absolute;
-  top: 21.1330205954%;
-  left: 425.0959291835px;
+  top: 21.1972427755%;
+  left: 405.9662664557px;
   transform: translate(0, 0);
-  animation: flying 6.2594517422s ease-in-out -0.7263762882S infinite;
+  animation: flying 6.4179105694s ease-in-out -0.2935796997S infinite;
 }
 
 .leaves15 {
@@ -312,12 +312,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(262);
+  transform: rotate(168);
   position: absolute;
-  top: 10.9579867149%;
-  left: 75.1302341161px;
+  top: 6.9752158888%;
+  left: 384.1762357986px;
   transform: translate(0, 0);
-  animation: flying 5.4904875384s ease-in-out -0.0689709739S infinite;
+  animation: flying 4.8421235178s ease-in-out -0.1224210422S infinite;
 }
 
 .leaves16 {
@@ -327,12 +327,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(242);
+  transform: rotate(99);
   position: absolute;
-  top: 21.4407011945%;
-  left: 242.7488526286px;
+  top: 16.7727856824%;
+  left: 637.9632083562px;
   transform: translate(0, 0);
-  animation: flying 5.6314952751s ease-in-out -0.0414478537S infinite;
+  animation: flying 6.6756628705s ease-in-out -0.738643835S infinite;
 }
 
 .leaves17 {
@@ -342,12 +342,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(243);
+  transform: rotate(182);
   position: absolute;
-  top: 18.3736170436%;
-  left: 313.5583125161px;
+  top: 17.8481350718%;
+  left: 81.1457736336px;
   transform: translate(0, 0);
-  animation: flying 4.133556826s ease-in-out -0.1423904054S infinite;
+  animation: flying 5.7212246927s ease-in-out -0.6403664541S infinite;
 }
 
 .leaves18 {
@@ -357,12 +357,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(132);
+  transform: rotate(94);
   position: absolute;
-  top: 19.9008517719%;
-  left: 586.8658432315px;
+  top: 3.0801916496%;
+  left: 308.2113470946px;
   transform: translate(0, 0);
-  animation: flying 4.3521229197s ease-in-out -0.0485461548S infinite;
+  animation: flying 6.0626426166s ease-in-out -0.933154611S infinite;
 }
 
 .leaves19 {
@@ -372,12 +372,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(250);
+  transform: rotate(9);
   position: absolute;
-  top: 3.6710597691%;
-  left: 692.1914542715px;
+  top: 22.4818607766%;
+  left: 456.7784467136px;
   transform: translate(0, 0);
-  animation: flying 4.9520996491s ease-in-out -0.4577977627S infinite;
+  animation: flying 4.2940560126s ease-in-out -0.6180677512S infinite;
 }
 
 .leaves20 {
@@ -387,12 +387,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(289);
+  transform: rotate(235);
   position: absolute;
-  top: 12.8417290034%;
-  left: 297.4065559692px;
+  top: 29.3420944869%;
+  left: 449.1966912341px;
   transform: translate(0, 0);
-  animation: flying 5.9997372368s ease-in-out -0.2983106048S infinite;
+  animation: flying 4.3868633502s ease-in-out -0.7044998533S infinite;
 }
 
 .leaves21 {
@@ -402,12 +402,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(222);
+  transform: rotate(107);
   position: absolute;
-  top: 5.3072291578%;
-  left: 732.3070028658px;
+  top: 21.0744188273%;
+  left: 529.1062593958px;
   transform: translate(0, 0);
-  animation: flying 5.8635681906s ease-in-out -0.0207374618S infinite;
+  animation: flying 5.2620352896s ease-in-out -0.7070650421S infinite;
 }
 
 .leaves22 {
@@ -417,12 +417,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(93);
+  transform: rotate(289);
   position: absolute;
-  top: 26.835047097%;
-  left: 1.8172901671px;
+  top: 11.2830372022%;
+  left: 684.7574523762px;
   transform: translate(0, 0);
-  animation: flying 5.2349171225s ease-in-out -0.6025558653S infinite;
+  animation: flying 6.1306402886s ease-in-out -0.7954455192S infinite;
 }
 
 .leaves23 {
@@ -432,12 +432,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(66);
+  transform: rotate(138);
   position: absolute;
-  top: 27.0029731273%;
-  left: 635.0887399007px;
+  top: 0.3613185942%;
+  left: 340.8581309832px;
   transform: translate(0, 0);
-  animation: flying 6.9196395266s ease-in-out -0.6373522958S infinite;
+  animation: flying 5.5728584195s ease-in-out -0.70359759S infinite;
 }
 
 .leaves24 {
@@ -447,12 +447,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(246);
+  transform: rotate(10);
   position: absolute;
-  top: 23.4807837404%;
-  left: 93.627645341px;
+  top: 21.1670562034%;
+  left: 25.1182275544px;
   transform: translate(0, 0);
-  animation: flying 4.1894883292s ease-in-out -0.7899477221S infinite;
+  animation: flying 6.6736568258s ease-in-out -0.4588709592S infinite;
 }
 
 .leaves25 {
@@ -462,12 +462,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(260);
+  transform: rotate(22);
   position: absolute;
-  top: 18.3892970236%;
-  left: 387.5837554997px;
+  top: 6.8498971997%;
+  left: 475.009888447px;
   transform: translate(0, 0);
-  animation: flying 5.8438518612s ease-in-out -0.0308587433S infinite;
+  animation: flying 5.6478741825s ease-in-out -0.6262032636S infinite;
 }
 
 .leaves26 {
@@ -477,12 +477,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(254);
+  transform: rotate(146);
   position: absolute;
-  top: 27.8744730939%;
-  left: 393.653228906px;
+  top: 28.9331617462%;
+  left: 798.9738901029px;
   transform: translate(0, 0);
-  animation: flying 5.1454323329s ease-in-out -0.5437962522S infinite;
+  animation: flying 5.6345662505s ease-in-out -0.1901945194S infinite;
 }
 
 .leaves27 {
@@ -492,12 +492,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(211);
+  transform: rotate(2);
   position: absolute;
-  top: 5.982586904%;
-  left: 329.0203011645px;
+  top: 2.4955588679%;
+  left: 482.2282366774px;
   transform: translate(0, 0);
-  animation: flying 6.3059922287s ease-in-out -0.3835277332S infinite;
+  animation: flying 6.7252096193s ease-in-out -0.3990012505S infinite;
 }
 
 .leaves28 {
@@ -507,12 +507,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(148);
+  transform: rotate(232);
   position: absolute;
-  top: 4.256017066%;
-  left: 577.02451126px;
+  top: 29.7765151236%;
+  left: 160.7047111727px;
   transform: translate(0, 0);
-  animation: flying 5.109526728s ease-in-out -0.9106868576S infinite;
+  animation: flying 6.7628427093s ease-in-out -0.6517115228S infinite;
 }
 
 .leaves29 {
@@ -522,12 +522,12 @@ footer {
   background-size: cover;
   width: 50px;
   height: 50px;
-  transform: rotate(246);
+  transform: rotate(282);
   position: absolute;
-  top: 16.6897440285%;
-  left: 260.3930520386px;
+  top: 2.5549747057%;
+  left: 335.9694057643px;
   transform: translate(0, 0);
-  animation: flying 6.8737978302s ease-in-out -0.3830846271S infinite;
+  animation: flying 4.7624137093s ease-in-out -0.1671090127S infinite;
 }
 
 .star1 {
@@ -538,10 +538,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 37.1522274379%;
-  left: 784.545649321px;
+  top: 43.7086165604%;
+  left: 342.421133718px;
   transform: translate(0, 0);
-  animation: flash 3.2783498132s ease -0.0455143753s infinite;
+  animation: flash 3.5085899349s ease -0.0695820336s infinite;
 }
 
 .star2 {
@@ -552,10 +552,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 24.4804358634%;
-  left: 565.7912923039px;
+  top: 41.3018400702%;
+  left: 146.3116587114px;
   transform: translate(0, 0);
-  animation: flash 2.8993859955s ease -0.4209517944s infinite;
+  animation: flash 2.3624182539s ease -0.3170191987s infinite;
 }
 
 .star3 {
@@ -566,10 +566,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 31.9698947916%;
-  left: 774.0386004945px;
+  top: 8.7431434888%;
+  left: 475.6866087312px;
   transform: translate(0, 0);
-  animation: flash 2.9841157308s ease -0.0922826853s infinite;
+  animation: flash 3.7780725256s ease -0.4884523129s infinite;
 }
 
 .star4 {
@@ -580,10 +580,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 41.8619498134%;
-  left: 312.2299243767px;
+  top: 1.1601596364%;
+  left: 102.02610615px;
   transform: translate(0, 0);
-  animation: flash 3.4014855952s ease -0.3144696181s infinite;
+  animation: flash 4.8469309243s ease -0.4434737678s infinite;
 }
 
 .star5 {
@@ -594,10 +594,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 21.523385269%;
-  left: 291.5632191552px;
+  top: 20.6249010186%;
+  left: 67.5689264258px;
   transform: translate(0, 0);
-  animation: flash 4.9548841035s ease -0.3896987082s infinite;
+  animation: flash 4.5402885593s ease -0.3613668951s infinite;
 }
 
 .star6 {
@@ -608,10 +608,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 41.2474313611%;
-  left: 136.2081513175px;
+  top: 21.4496691618%;
+  left: 243.2189373443px;
   transform: translate(0, 0);
-  animation: flash 3.3135247948s ease -0.349112863s infinite;
+  animation: flash 3.6404110212s ease -0.3393587721s infinite;
 }
 
 .star7 {
@@ -622,10 +622,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 0.4725091062%;
-  left: 64.607583426px;
+  top: 49.8947468305%;
+  left: 77.3790868864px;
   transform: translate(0, 0);
-  animation: flash 4.7123606005s ease -0.033891969s infinite;
+  animation: flash 3.8544666081s ease -0.0053260038s infinite;
 }
 
 .star8 {
@@ -636,10 +636,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 29.5865822067%;
-  left: 449.4277437441px;
+  top: 8.1025378236%;
+  left: 507.2059003536px;
   transform: translate(0, 0);
-  animation: flash 2.3765310839s ease -0.3515545791s infinite;
+  animation: flash 2.5959348891s ease -0.1122487583s infinite;
 }
 
 .star9 {
@@ -650,10 +650,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 21.7170309061%;
-  left: 500.0016133154px;
+  top: 37.3880338926%;
+  left: 781.8208213796px;
   transform: translate(0, 0);
-  animation: flash 2.3399352387s ease -0.3524867914s infinite;
+  animation: flash 2.0780455823s ease -0.2507024102s infinite;
 }
 
 .star10 {
@@ -664,10 +664,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 44.2026783605%;
-  left: 450.8492864004px;
+  top: 27.26836379%;
+  left: 396.2334201986px;
   transform: translate(0, 0);
-  animation: flash 3.3585217027s ease -0.3823558764s infinite;
+  animation: flash 2.2436661296s ease -0.2385001816s infinite;
 }
 
 .star11 {
@@ -678,10 +678,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 42.3946418204%;
-  left: 728.7010930805px;
+  top: 49.3510356043%;
+  left: 205.1980751535px;
   transform: translate(0, 0);
-  animation: flash 4.7744673s ease -0.2497933791s infinite;
+  animation: flash 2.6264354704s ease -0.3115615201s infinite;
 }
 
 .star12 {
@@ -692,10 +692,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 6.1940698487%;
-  left: 391.0686426846px;
+  top: 31.3624388283%;
+  left: 628.5872562218px;
   transform: translate(0, 0);
-  animation: flash 4.3273265269s ease -0.0782341109s infinite;
+  animation: flash 4.4429465743s ease -0.1056076398s infinite;
 }
 
 .star13 {
@@ -706,10 +706,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 24.3709171162%;
-  left: 333.0031208303px;
+  top: 16.3333555954%;
+  left: 32.410018695px;
   transform: translate(0, 0);
-  animation: flash 2.8150765874s ease -0.1190022873s infinite;
+  animation: flash 4.6220690695s ease -0.0950800714s infinite;
 }
 
 .star14 {
@@ -720,10 +720,10 @@ footer {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 49.9255618926%;
-  left: 722.6942960252px;
+  top: 44.3923258959%;
+  left: 700.610297819px;
   transform: translate(0, 0);
-  animation: flash 3.0554600695s ease -0.1214096256s infinite;
+  animation: flash 3.8569788622s ease -0.0994288851s infinite;
 }
 
 @media (max-width: 1024px) {
@@ -736,6 +736,10 @@ footer {
     font-weight: 4rem;
     line-height: bold;
     letter-spacing: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
   }
   footer {
     font-size: 9px;
