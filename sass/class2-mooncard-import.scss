@@ -1,0 +1,85 @@
+
+// 在scss資料夾裡建立檔案名 '_xxxxx'
+// @import 用來引用外部scss檔案
+@import "variable";
+@import "function";
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    @include size(100%, 100vh, 0);
+    @include flex(center, center);
+    background-color: #222;
+}
+
+.scene {
+    @include size(800px, 500px, 15px, $scene_blue_gradient);
+    box-shadow: 0 5px 5px rgba($color: #000000, $alpha: 1.0);
+    // lapha是透明度
+    position: relative;
+    // 場景之外的東西全部隱藏
+    overflow: hidden;
+}
+
+.moon {
+    @include size(50px, 50px, 50%);
+    box-shadow: inset 0px 16px #ffcc33, inset 0px 16px 1px #ffcc33;
+    // box-shadow: inset 0px -16px #ffcc33, inset 0px -16px 1px #ffcc33;
+    @include posa(20, 10%);
+    // 旋轉 deg度數
+    transform: rotate(135deg);
+}
+
+.name {
+    @include font(50px, white, 4rem, 400, 5px);
+    @include posa(50%, 50%, -50%, -50%);
+}
+
+.allstar {
+    // 在這長卡片上的出現範圍
+    @include size(100%, 100%);
+    // 相對定位
+    @include posa(50%, 50%, -50%, -50%);
+}
+// 動畫
+@keyframes flying {
+    // 設置從哪到哪的位置
+    // 開始0%與結束100%的位置
+    0%, 100%{
+        // 隱藏
+        opacity: 0;
+    }
+    // 跑到60%時開始慢慢出現
+    60%{
+        opacity: 1;
+    }
+    // 處理下降位置
+    0%{
+        transform: translate(100px, 0);
+    }
+
+    100%{
+        transform: translate(0, 350px);
+    }
+}
+
+@for $i from 1 to 30 {
+    // 差值法
+    .star#{$i} {
+        // random()隨機產生 0-1之間的亂數
+        // rgb色表最大數為255 
+        @include size(5px, 5px, 50%, rgb(random(255), random(255), random(255)));
+        // 處理亂數位置
+        @include posa(random()*30%, random()*800px);
+        // 播放流星動畫
+        animation-name: flying;
+        // 數學運算
+        animation-duration:(random()*3s)+2;
+        // 重複播放次數
+        animation-iteration-count: infinite;
+        // -1s 提前播放
+        animation-delay: random()*-1s;
+    }
+}

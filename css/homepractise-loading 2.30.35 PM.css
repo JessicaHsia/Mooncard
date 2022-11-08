@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation: around 3s linear 1s infinite;
+}
+.container .circle1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: teal;
+  display: flex;
+  position: absolute;
+  top: -5px;
+  left: 40px;
+  animation: color 1.2926731054s linear 0.230506704s infinite;
+}
+.container .circle2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: peru;
+  position: absolute;
+  top: 20px;
+  left: 160px;
+  animation: color 2.3318135888s linear 0.2432514986s infinite;
+}
+.container .circle3 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: lightskyblue;
+  position: absolute;
+  top: 140px;
+  left: 170px;
+  animation: color 2.8668486132s linear 0.4060313615s infinite;
+}
+.container .circle4 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: lightpink;
+  position: absolute;
+  top: 180px;
+  left: 55px;
+  animation: color 1.1546754187s linear 0.2962005534s infinite;
+}
+.container .circle5 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: gold;
+  position: absolute;
+  top: 90px;
+  left: -15px;
+  animation: color 1.4749801317s linear 0.2531446552s infinite;
+}
+
+.loading h1 {
+  width: 0px;
+  overflow: hidden;
+  color: darkgray;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -110%);
+  animation: loading 2s linear 0s infinite alternate;
+}
+
+@keyframes around {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes color {
+  0% {
+    background-color: peru;
+  }
+  50% {
+    background-color: lightpink;
+  }
+  75% {
+    background-color: lightskyblue;
+  }
+}
+@keyframes loading {
+  100% {
+    width: 150px;
+  }
+}/*# sourceMappingURL=homepractise-loading.css.map */
